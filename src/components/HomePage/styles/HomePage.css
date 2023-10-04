@@ -1,0 +1,51 @@
+.homePrincipal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.homePage{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homePage>p{
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+.homeTitulo{
+    color: red;
+    font-size: 35px;
+}
+.homePokedex{
+    width: 50em;
+    
+}
+.barra_roja{
+    background-color: red;
+    width: 100vw;
+    height: 10vh;
+}
+.barra_negra{
+    background-color: black;
+    width: 100vw;
+    height: 5vh;
+}
+.home_form{
+    display: flex;
+}
+.home_form>input{
+    border: 1px solid;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+.home_form>button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(196, 21, 21);
+    color: white;
+    font-size: 20px;
+}

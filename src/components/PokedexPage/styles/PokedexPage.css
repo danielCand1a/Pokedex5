@@ -1,0 +1,59 @@
+.red{
+    background-color: red;
+    height: 10vh;
+}
+.black{
+    background-color: black;
+    height: 5vh;
+    margin-bottom: 1em
+}
+.poke_page_color{
+    color: red;
+    font-weight: bold;
+}
+.poke_page_form{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.container_main{
+    display: flex;
+    flex-direction: column;
+}
+.poke_page_img{
+    position: absolute;
+    width: 25em;
+    left: 3em;
+    top: 1.5em;
+}
+.poke_page{
+    font-size: 20px;
+    padding-left: 3em;
+    margin-bottom: 1.5em;
+}
+.form_input,
+.form_button{
+    height: 40px;  
+}
+.form_input{
+    width: 250px;
+    border: 1px solid #BCBCBC;
+    font-size: 15px;
+}
+.form_button{
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(196, 21, 21);
+}
+.poke_page_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+

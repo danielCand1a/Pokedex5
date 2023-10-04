@@ -1,0 +1,29 @@
+.pagination_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.pagination_cuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(146, 176, 221);
+    cursor: pointer;
+    background-color: skyblue;
+    transition: transform 150ms ease;
+}
+.pagination_cuadro:hover{
+    transform: scale(1.2);
+}
+.pagination_text{
+    text-align: center;
+    color: white;
+    text-decoration-line:none;
+    font-weight: bold;
+}
