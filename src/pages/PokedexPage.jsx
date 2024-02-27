@@ -49,7 +49,7 @@ const PokedexPage = () => {
     <div className="container_main">
       <area className="red"/>
       <area className="black"/>
-      <img className="poke_page_img" src="../public/images/pokedex_uno.png"/>
+      <img className="poke_page_img" src="../images/pokedex_uno.png"/>
       <p className="poke_page"><span className="poke_page_color">Hi {trainer}</span>, here you can find your favorite pokemon</p>
       <div className="poke_page_form">
         <form className="poke_page_formUno" onSubmit={handleSearch}>
